@@ -8,7 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Hello
+      - name: 🤣 Hello
         run: echo "Hello! i'm ${{ github.actor }} and this triggered  by the ${{ github.event_name }}. Workflow ${{ github.workflow }}"
       
       - name: Environment
