@@ -14,7 +14,7 @@ jobs:
       - name: Environment
         env:
           TEST: "this test env_var"
-          ACTOR: ${{ github.action }}
+          ACTOR: ${{ github.actor }}
         run: |
           echo "value -> $TEST"
           echo "My username: $ACTOR, and export var ACTOR and get value from github"
